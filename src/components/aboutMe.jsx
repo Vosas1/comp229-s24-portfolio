@@ -1,18 +1,27 @@
 import React from 'react';
 import VictorImage from '../assets/victorImage.JPG';
 
+
 export default function AboutMe() {
     return (
-        <>
+        
+        /*Name: Victor Osaikhuwuomwan 
+        Student ID: 301286119 
+        Date: May 31, 2024 */
 
 <div>
       <h1>About Me</h1>
+      <div className="profile-container">
       
       <img src={VictorImage} alt="Victor" style={{ width: '10%', height: 'auto' }} />
+      <a href="/resumeReal.pdf" target="_blank" rel="noopener noreferrer">Download My Resume</a>
+      
       
     </div>
           
             <main>
+
+                
                 <section>
 
                     <p>My name is Victor Osaikhuwuomwan, and I studied Software Engineering & Artificial Intelligence.
@@ -29,8 +38,8 @@ export default function AboutMe() {
                 
             </main>
             <footer>
-                <p>&copy; 2024 VikiTech. All rights reserved.</p>
+                <p>&copy; 2024 Victor Osaikhuwuomwan. All rights reserved.</p>
             </footer>
-        </>
+        </div>
     );
 }
