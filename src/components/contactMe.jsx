@@ -26,7 +26,7 @@ export default function ContactMe() {
                 </section>
             </main>
             <footer>
-                <p>&copy; 2024 VikiTech. All rights reserved.</p>
+                <p>&copy; 2024 Victor Osaikhuwuomwan. All rights reserved.</p>
             </footer>
         </>
     );

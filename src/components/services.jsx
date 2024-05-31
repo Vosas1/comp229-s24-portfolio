@@ -30,7 +30,7 @@ export default function Services() {
                 </section>
             </main>
             <footer>
-                <p>&copy; 2024 VikiTech. All rights reserved.</p>
+                <p>&copy; 2024 Victor Osaikhuwuomwan. All rights reserved.</p>
             </footer>
         </>
     );
